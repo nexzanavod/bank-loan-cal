@@ -1,0 +1,34 @@
+/* App.css */
+.app-container {
+  
+  width: 500px;
+  height: 500px;
+background-image: url('./assets/combank.gif');
+ /* background-color: blue; */
+}
+.popup-modal{
+width: 200px;
+  height: 90px;
+}
+
+.a {
+  /* Add styles for the anchor element */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.button {
+  background-color: yellow;
+  border: none;
+  border-radius: 10px; /* Adjust the radius to control the roundness */
+  padding: 10px 20px; /* Add padding to make the button larger */
+  cursor: pointer; /* Add cursor style to indicate interactivity */
+  color: white; /* Set text color to improve visibility on a yellow background */
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  color: black;
+}
+
+.button:hover {
+  background-color: orange; /* Change the color when hovering over the button */
+}
